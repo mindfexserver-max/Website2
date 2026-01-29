@@ -1,10 +1,7 @@
 Website2/
-├─ index.html        ✅
-├─ dashboard.html
+├─ index.html
 ├─ css/
 │  └─ style.css
-├─ js/
-│  └─ dashboard.js
 └─ img/
    ├─ minecraft1.jpg
    ├─ minecraft2.jpg
