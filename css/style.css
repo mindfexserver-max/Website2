@@ -1,13 +1,19 @@
 body{
   min-height:100vh;
-  background-image:url("../img/minecraft1.jpg");
+  margin:0;
   background-size:cover;
   background-position:center;
   animation:bgChange 12s infinite;
 }
 
 @keyframes bgChange{
-  0%{background-image:url("../img/minecraft1.jpg")}
-  50%{background-image:url("../img/minecraft2.jpg")}
-  100%{background-image:url("../img/minecraft3.jpg")}
+  0%{
+    background-image:url("https://mindfxserver-max.github.io/Website2/img/minecraft1.jpg");
+  }
+  50%{
+    background-image:url("https://mindfxserver-max.github.io/Website2/img/minecraft2.jpg");
+  }
+  100%{
+    background-image:url("https://mindfxserver-max.github.io/Website2/img/minecraft3.jpg");
+  }
 }
