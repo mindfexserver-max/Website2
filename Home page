@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SKA Hosting</title>
+<link href="https://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
+
+<div class="overlay"></div>
+
+<header>
+  <h1 class="typing">WELCOME TO SKA HOSTING</h1>
+  <a href="dashboard.html" class="main-btn">OPEN DASHBOARD</a>
+</header>
+
+<section class="plans">
+  <div class="plan">FREE<br>2GB RAM</div>
+  <div class="plan">PRO<br>4GB RAM</div>
+  <div class="plan">ULTRA<br>8GB RAM</div>
+</section>
+
+<footer>© SKA HOSTING</footer>
+
+</body>
+</html>
