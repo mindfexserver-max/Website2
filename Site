@@ -1,0 +1,11 @@
+/site
+ ├─ index.html        (Landing page)
+ ├─ dashboard.html    (Real dashboard UI)
+ ├─ css/
+ │   └─ style.css
+ ├─ js/
+ │   └─ dashboard.js
+ └─ img/
+     ├─ minecraft1.jpg
+     ├─ minecraft2.jpg
+     └─ minecraft3.jpg
