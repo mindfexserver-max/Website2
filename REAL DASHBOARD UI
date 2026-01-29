@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard | SKA</title>
+<link href="https://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dashboard">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <h2>SKA PANEL</h2>
+  <a href="#">Overview</a>
+  <a href="#">Console</a>
+  <a href="#">Files</a>
+  <a href="#">Settings</a>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+<h1>Server Overview</h1>
+
+<!-- 🟢 STATUS -->
+<div class="status online">● ONLINE</div>
+
+<!-- 📊 STATS -->
+<div class="stats">
+  <div class="card">
+    <h3>CPU</h3>
+    <div class="bar"><span style="width:40%"></span></div>
+  </div>
+
+  <div class="card">
+    <h3>RAM</h3>
+    <div class="bar"><span style="width:65%"></span></div>
+  </div>
+
+  <div class="card">
+    <h3>Players</h3>
+    <p>3 / 20</p>
+  </div>
+</div>
+
+<!-- 🔥 ANIMATED BLOCKS -->
+<div class="blocks">
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+</div>
+
+</div>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>
