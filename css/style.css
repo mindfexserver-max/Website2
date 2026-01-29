@@ -1,86 +1,13 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:'Minecraftia',sans-serif;
-}
-
 body{
   min-height:100vh;
-  color:#fff;
+  background-image:url("../img/minecraft1.jpg");
   background-size:cover;
   background-position:center;
-  animation:bgChange 16s infinite alternate;
-  overflow-x:hidden;
+  animation:bgChange 12s infinite;
 }
 
-/* BACKGROUND SLIDESHOW */
 @keyframes bgChange{
   0%{background-image:url("../img/minecraft1.jpg")}
   50%{background-image:url("../img/minecraft2.jpg")}
   100%{background-image:url("../img/minecraft3.jpg")}
-}
-
-.overlay{
-  position:fixed;
-  inset:0;
-  background:rgba(0,0,0,.45);
-  z-index:-1;
-}
-
-canvas{
-  position:fixed;
-  inset:0;
-  z-index:-2;
-}
-
-header{
-  text-align:center;
-  padding:90px 20px;
-}
-
-h1{
-  font-size:2.4rem;
-  color:#00ffea;
-  text-shadow:0 0 30px #00ffea;
-}
-
-.main-btn{
-  display:inline-block;
-  margin-top:35px;
-  padding:20px 45px;
-  background:linear-gradient(90deg,#00ffea,#5865f2);
-  color:#fff;
-  text-decoration:none;
-  border-radius:20px;
-  box-shadow:0 0 30px #00ffea;
-  transition:.3s;
-}
-
-.main-btn:hover{
-  transform:scale(1.1);
-}
-
-.discord{
-  margin-top:30px;
-}
-
-.discord a{
-  color:#5865F2;
-  font-size:4rem;
-}
-
-.section{
-  max-width:1000px;
-  margin:70px auto;
-  background:rgba(0,0,0,.65);
-  padding:35px;
-  border-radius:20px;
-  text-align:center;
-}
-
-footer{
-  text-align:center;
-  margin:40px 0 25px;
-  opacity:.7;
 }
